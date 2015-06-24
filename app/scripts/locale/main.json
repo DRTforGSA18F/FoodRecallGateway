@@ -1,4 +1,5 @@
 {
-	"headerText": "Food Recall Gateway ",
-	"sampleText": "We welcome you to the food gateway recall site. Get a whole new experience of searching for food recalls with keyword, advance searches and most common food type & foodborne illness pathogens."
+	"headerText": "Welcome",
+	"sampleText": "Welcome to the U.S. Food Recall Gateway site. This site serves as a go-to resource for consumers to know when and where food recalls are occurring across the United States. The data provided on this site is intended to complement the federal information site,  FoodSafety.gov, by presenting dynamic visualizations of current food recall trends and user friendly tools to inform consumers’ daily dietary habits. ",
+	"seachDescription": "Users may perform a quick search utilizing up to three keywords or an advanced search that allows users to search by multiple parameters including year range, states, recall status, classification status.  "
 }
