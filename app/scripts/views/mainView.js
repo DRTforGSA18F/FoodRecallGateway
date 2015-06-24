@@ -144,7 +144,7 @@ define([
 							chart.data.colors({						
 								
 								classi: '#d595a0',
-								classii: '#d27607',
+								classii: '#F89C2D',
 								classiii: '#F5D60A'
 							});
 
@@ -197,7 +197,7 @@ define([
 			if ($.trim(recallDetails[0].attributes.classification).toLowerCase() === 'class i') {
 				mapColor = '#d595a0';
 			} else if ($.trim(recallDetails[0].attributes.classification).toLowerCase() === 'class ii') {
-				mapColor = '#d27607';
+				mapColor = '#F89C2D';
 			}
 
 			var sampleData = {}; /* Sample random data. */
