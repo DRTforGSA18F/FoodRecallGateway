@@ -2,15 +2,16 @@ $font-size-base:          16px !default;
 
 $alert-caution-bg: #F89C2D;
 $alert-caution-border: #F89C2D;
-$alert-caution-text: #333;
+$alert-caution-text: #000;
 
 $alert-warning-bg:            #F5D60A;
-$alert-warning-text:          #333;
+$alert-warning-bg-lite:       #fab867;
+$alert-warning-text:          #000;
 $alert-warning-border:        #F5D60A;
 
 $alert-danger-bg:             #EF3644;
 $alert-danger-bg-lite:        #d595a0;
-$alert-danger-text:           #333;
+$alert-danger-text:           #000;
 $alert-danger-border:         #EF3644;
 
 // food color variables
