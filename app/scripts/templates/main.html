@@ -9,8 +9,10 @@
       <%=content.seachDescription %>
       </p>
     </div>
+    <div class="col-md-9">
+        <label for="select-fooditem">Multiple terms (up to three keywords related to food type) can be entered into the single search box.</label>
+    </div>
     <div class="col-md-6">
-        <label for="foodSearch" class="sr-only">Type text to search</label>
         <select id="select-fooditem" placeholder="Select a food item..." name="searchTerms" multiple>
             <option value="">Select a food item...</option>
             <option value="cheese">Cheese</option>
@@ -27,7 +29,7 @@
         <button id="btnSearch" class="btn btn-primary btn-block"><i class="fa fa-search"></i> Search</button>
     </div>
     <div class="col-md-3 col-xs-6">
-        <button type="button" class="btn btn-link" data-toggle="collapse" data-target="#advSearchContainer">Advanced Search</button>
+        <button type="button" class="btn btn-default" data-toggle="collapse" data-target="#advSearchContainer">Advanced Search</button>
     </div>
 
     <div class="col-xs-12 collapse" id="advSearchContainer">
