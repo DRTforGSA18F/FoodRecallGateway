@@ -2,6 +2,7 @@
 <div id="results" class="row mbm"  tabindex="-1">
     <div class="col-md-6  col-xs-6">
 		  <h3 id="numHeading" class="man">Results</h3>
+      <p>The results displayed below are the latest food recalls reported to FDA as of May 30, 2015. Each recall record is color-coded according to the FDA Recall Classification tiers, which are used to define the level of hazard involved for consumers.  Click on an individual record to view more details.</p>
       <%if (maxCount > 0){%>
         <h4>Viewing <%-reqModel.attributes.skip + 1%> to  <%=(reqModel.attributes.skip + 5) >= maxCount ? maxCount : reqModel.attributes.skip + 5%> of  <%-maxCount%> results</h4>  
       <%}else{%> 
@@ -38,7 +39,7 @@
       <%}%>
   </div>
   <div class="col-md-3">
-       <h3>Results By Classification</h3>
+       <h3>Results By Recall Classification</h3>
        <div id='chart'></div>
         <div>
         <h3>FDA Food Recall Classifications (classification – OpenFDA data field name) link for see <a href="http://www.fda.gov/ForConsumers/ConsumerUpdates/ucm049070.htm" target="_blank">FDA 101: Recall Classifications</a></h3> 

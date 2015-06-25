@@ -24,7 +24,8 @@ define([
 			productQuantity:'',
 			codeInfo:'',
 			reportedDate:'',
-			initialFirmNotification:''
+			initialFirmNotification:'',
+			recallInitiationDate:''
 		},
 
 		// Model Constructor
@@ -50,7 +51,8 @@ define([
 	            "codeInfo":data.code_info,
 	            "reportedDate": data.report_date,
 	            "voluntaryMandated": data.voluntary_mandated,
-	            "initialFirmNotification":data.initial_firm_notification
+	            "initialFirmNotification":data.initial_firm_notification,
+	            "recallInitiationDate": data.recall_initiation_date
             });			
 		}
 

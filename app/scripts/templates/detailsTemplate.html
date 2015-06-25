@@ -31,16 +31,7 @@
                                 <dd><%- data[0].attributes.productQuantity %></dd>
 
                                 <dt>Recall initiation date</dt>
-                                <dd><%- data[0].attributes.distributionPattern %></dd>
-                                
-                                <dt>city</dt>
-                                <dd><%- data[0].attributes.city %></dd>
-
-                                <dt>state</dt>
-                                <dd><%- data[0].attributes.state %></dd>
-                                
-                                <dt>country</dt>
-                                <dd><%- data[0].attributes.country %></dd>
+                                <dd><%- data[0].attributes.recallInitiationDate %></dd>
                                 
                                 <dt>voluntary mandated</dt>
                                 <dd><%- data[0].attributes.voluntaryMandated %></dd>
@@ -123,8 +114,19 @@
                                 </div>
                                 <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingThree">
                                     <div class="panel-body">
-                                        Coming Soon
-                                    </div>
+                                       <dl class="dl-horizontal">
+                                            <dt>Recalling Firm</dt>
+                                            <dd><%- data[0].attributes.recallingFirm %></dd>
+
+                                            <dt>City</dt>
+                                            <dd><%- data[0].attributes.city %><br></dd>
+
+                                            <dt>State</dt>
+                                            <dd><%- data[0].attributes.state %></dd>
+
+                                            <dt>Country</dt>
+                                            <dd><%- data[0].attributes.country %></dd>
+                                        </dl>                                    </div>
                                 </div>
                             </div>
                         </div>
