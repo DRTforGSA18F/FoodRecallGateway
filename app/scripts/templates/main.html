@@ -39,7 +39,7 @@
           <div class=" top_arrow_box mtl">
               <div class="row mbs">
                 <div class="col-md-12">
-                  <p>The Advanced Search function allows users to generate a more robust display of recent food recalls across the United States. You can select a year range, multiple keywords, search by multiple states, and filter results by food recall status.  Note: (Note: the data reported for 2015 is as of May 30, 2015).</p>
+                  <p>The Advanced Search function allows users to generate a more robust display of recent food recalls across the United States. You can select a year range, multiple keywords, search by multiple states, and filter results by food recall status.</p>
                 </div>
               </div>
               <form role="form" class="row">
@@ -57,103 +57,3 @@
       </div>
   </div>
 </div>
-<!-- search section end -->
-<!-- start results section -->
-<div id="resultsSection">
-</div>
-<!-- End Results Section-->
-<!-- start details Section -->
-<div id="detailsSection"></div>
-<!-- end details section -->
-<!-- start food pyramid section-->
-<div id="foodInfoSection">
-  <hr />
-  <h2 id="foodInfo"  tabindex="-1">My Plate</h2>
-  <p>Food Recall Gateway aims to present food safety data in a way that makes sense to you.  Below you can view the latest FDA food recalls organized by the <a href="http://www.choosemyplate.gov/food-groups/" target="blank"> USDA’s ChooseMyPlate food groups</a>.  Create <a href="http://www.choosemyplate.gov/myplate/index.aspx" target="_blank">food plans</a> that work for you.  The USDA utilizes the MyPlate icon on to prompt consumers make healthier food choices in their daily lives. The boxes below will help consumers effectively target safer foods by being aware of the latest FDA food recalls by hazard level.</p>
-  <div class="row mts">
-      <div class="col-lg-5"><img class="img-responsive" style="padding: 10%;" src="http://www.choosemyplate.gov/images/MyPlateImages/JPG/myplate_white.jpg">
-      <a class="text-center" href="http://www.choosemyplate.gov/about.html ">http://www.choosemyplate.gov/about.html </a></div>
-      <div class="col-lg-4">
-          <div class="panel panel-info">
-            <div class="panel-heading">FDA Food Recall Classifications
-            </div>
-            <div class="panel-body"> 
-            <p>FDA Food Recall Classifications (classification – OpenFDA data field name) link for see <a href="http://www.fda.gov/ForConsumers/ConsumerUpdates/ucm049070.htm" target="_blank">FDA 101: Recall Classifications</a></p>
-              <p>Class I: Dangerous or defective food products that predictably could cause serious health problems or death.</p>
-              <p>Class II: Food Products that might cause a temporary health problem, or pose only a slight threat of a serious nature.</p>
-              <p>Class III: Food products that are unlikely to cause any adverse health reaction, but that violate FDA labeling or manufacturing laws.</p>
-            </div>
-        </div>
-      </div>
-      
-      <!--<div class="col-lg-3"><div class="panel panel-oil"><div class="panel-heading">oil</div><div class="panel-body"><%=content.oilText %><div id="oil"></div></div></div></div>-->
-      <div class="col-lg-3"><div class="panel panel-dairy"><div class="panel-heading">Dairy</div><div class="panel-body"><%=content.dairyText %><div id="dairy"></div></div></div></div>
-      <div class="col-lg-3"><div class="panel panel-fruit"><div class="panel-heading">Fruits</div><div class="panel-body"><%=content.fruitText %><div id="fruit"></div></div></div></div>
-      <div class="col-lg-3"><div class="panel panel-grain"><div class="panel-heading">Grains</div><div class="panel-body"><%=content.grainText %><div id="grain"></div></div></div></div>
-      <div class="col-lg-3"><div class="panel panel-vegetable"><div class="panel-heading">Vegetables</div><div class="panel-body"><%=content.vegetableText %><div id="vegetable"></div></div></div></div>      
-      <div class="col-lg-3"><div class="panel panel-meat"><div class="panel-heading">Protein</div><div class="panel-body"><%=content.meatText %><div id="meat"></div></div></div></div>
-  </div>  
-</div>
-<!-- end food pyramid section -->
-<!-- start food pathogens section -->
-<div id="foodPathogensSection"><div>
-  <hr />
-  <h2 id="foodPathogens" tabindex="-1">Food Pathogens</h2>
-  <div class="row">
-    <div class="col-lg-8">
-   <div class="row">
-        <div class="col-lg-6">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h3><a href="http://www.homefoodsafety.org/food-poisoning/foodborne-pathogens#salmonella" target="blank">Salmonella</a></h3>
-                    <p>
-                      <%=content.salmonellaText %>
-                    </p>
-                    <div id="salmonella"></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h3><a href="http://www.homefoodsafety.org/food-poisoning/foodborne-pathogens#Norovirus" target="blank">Norovirus</a></h3>
-                    <p>
-                        <%=content.norovirusText %>
-                    </p>
-                    <div id="norovirus"></div>
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h3><a href="http://www.homefoodsafety.org/food-poisoning/foodborne-pathogens#Listeria" target="blank">Listeria</a></h3>
-                    <p>
-                        <%=content.listeriaText %>
-                    </p>
-                    <div id="listeria"></div>
-
-                </div>
-            </div>
-        </div>
-        <div class="col-lg-6">
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h3><a href="http://www.homefoodsafety.org/food-poisoning/foodborne-pathogens#E. coli" target="blank">E. coli</a></h3>
-                    <p>
-                         <%=content.ecoliText %>
-                    </p>
-                    <div id="ecoli"></div>                  
-
-                </div>
-            </div>
-        </div>    
-    </div>
-</div>
-
-    <div class="col-lg-4">
-      <a class="twitter-timeline" href="https://twitter.com/FDAfood" data-widget-id="613006443734806529">Tweets by @FDAfood</a> <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
-    </div>
-  </div>
-</div>
-<!-- end food pathogen section -->

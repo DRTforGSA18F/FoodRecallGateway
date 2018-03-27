@@ -23,7 +23,7 @@ define([
 
 		stateList: '',
 
-		dateRange: [2012, 2015],
+		dateRange: [2012, 2018],
 
 		totalCount: 0,
 		// View constructor
